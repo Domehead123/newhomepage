@@ -5118,6 +5118,11 @@ body {
     
  .taxonomy-row .icon-container { display: inline-block; float: none; font-size: 1.3em; text-align: center; width: 160px !important; margin-right: 0; border-bottom: 3px solid #ccc;}
 
+
+.taxonomy-row .icon-container:nth-child(19), .taxonomy-row .icon-container:nth-child(20) {
+     border-bottom: 0;
+}
+
 .promotional-row {
      background: none repeat scroll 0% 0% #fff;
      overflow: hidden;
@@ -5281,7 +5286,7 @@ p.center {
   .taxonomy-row .container .icon-container-wrapper .spacer { height: 100%; width: 1.6667%; }
   .taxonomy-row .spacer-height { /*margin: 1.2em 0px;*/ padding: 0.6em; }
 
-  .taxonomy-row .icon-container:nth-child(16), .taxonomy-row .icon-container:nth-child(17), .taxonomy-row .icon-container:nth-child(18), .taxonomy-row .icon-container:nth-child(19), .taxonomy-row .icon-container:nth-child(20) { border-bottom: 0;}
+  .taxonomy-row .icon-container:nth-child(16), .taxonomy-row .icon-container:nth-child(17), .taxonomy-row .icon-container:nth-child(18) { border-bottom: 0;}
   .sign-in__wrap .container { padding: 0px 0.2em; }
   .sign-in__wrap .form__sign-in .field, .sign-in__wrap .form__sign-in .button__primary { width: auto; }
   .sign-in__wrap .form__sign-in h2 { margin: 0px; }
