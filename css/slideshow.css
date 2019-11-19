@@ -1,0 +1,156 @@
+/*  SLIDESHOW */
+
+.slideshow-container-small {
+ display: flex;
+     max-width: 700px;
+     margin: 0 auto;
+ font-size: 1em;
+ position: relative;
+ margin: 20px auto 40px auto;
+}
+
+.slideCounter{
+ display:none;
+}
+
+.minor {
+ height: 320px;
+}
+
+/* Hide the images by default */
+.mySlides, .mySlidesMain  {
+ display: none;
+ text-align: center;
+ padding: 0 40px;
+ margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+ cursor: pointer;
+ position: absolute;
+ top: 100px;
+ width: auto;
+ margin-top: -22px;
+ padding: 16px;
+ color: #fff !important;
+ font-weight: bold;
+ font-size: 18px;
+-webkit-transition: 0.6s ease;
+ transition: 0.6s ease;
+ user-select: none;
+ background-color: #00193c;
+text-decoration: none !important;
+}
+
+.slideshow-container-small .prev,  .slideshow-container-small .next {
+font-size: 10px;
+padding: 10px;
+text-decoration: none !important;
+}
+
+/* Position the "next button" to the right */
+.next {
+ right: 0;
+ border-radius: 0 3px 3px 0;
+}
+
+.prev {
+ left: 0;
+ border-radius: 3px 0 0 3px;
+}
+
+/* Caption text */
+.text {
+ color: #fff;
+ font-size: 15px;
+ font-weight: bold;
+ background: rgba(0, 46, 111, 0.6);
+ padding: 8px 0;
+ position: absolute;
+ bottom: 8px;
+ width: 100%;
+ text-align: center;
+}
+
+.text a {
+  color: #fff !important;
+text-decoration: none !important;
+transition: 0.4s all;
+}
+
+.text a:hover {
+text-decoration: underline !important;
+}
+
+.slideshow-container-small .text{
+font-size: 12px;
+}
+
+/* Fading animation */
+.fade {
+ -webkit-animation-name: fade;
+ -webkit-animation-duration: 1.5s;
+ animation-name: fade;
+ animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+.news-image {
+     height: 200px;
+}
+
+.news-links {
+     padding-left: 20px;
+     text-align: left;
+} 
+
+.news-links h3 {
+     margin-top: 0;
+}
+
+
+.news-links a {
+     color: #222 !important;
+     transition: 0.4s all;
+}
+
+.news-links:hover a{
+     text-decoration: underline
+}
+
+.news-image img{
+     height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+ 
+  .news-image {
+     height: 0;
+}
+ 
+  .news-image img{
+     display: none;
+}
+
+.prev, .next {
+  top: 70px;
+}
+
+
+.slideshow-container-small .prev,  .slideshow-container-small .next {
+font-size: 8px;
+padding: 8px;
+}
+
+}
