@@ -3283,7 +3283,8 @@ display: none;
 
 /* line 66, ../sass/base/_type.scss */
 .icon-youtube:before {
-  content: "\e63d";
+    content: "\f167";
+  font-family: "FontAwesome";
 }
 
 /* line 69, ../sass/base/_type.scss */
@@ -3403,7 +3404,8 @@ display: none;
 
 /* line 138, ../sass/base/_type.scss */
 .icon-search:before {
-  content: "\e616";
+  content: "\f082";
+  font-family: "FontAwesome";
 }
 
 /* line 141, ../sass/base/_type.scss */
@@ -3518,7 +3520,8 @@ display: none;
 
 /* line 207, ../sass/base/_type.scss */
 .icon-facebook:before {
-  content: "\e62d";
+    content: "\f082";
+  font-family: "FontAwesome";
 }
 
 /* line 210, ../sass/base/_type.scss */
@@ -3528,7 +3531,8 @@ display: none;
 
 /* line 213, ../sass/base/_type.scss */
 .icon-twitter:before {
-  content: "\e62f";
+  content: "\f099";
+  font-family: "FontAwesome";
 }
 
 /* line 216, ../sass/base/_type.scss */
@@ -5070,7 +5074,6 @@ body {
      transition: background 0.25s ease 0s;
      vertical-align: top;
      width: 100%;
-     word-spacing: -5px;
 }
 
 .icon-grid .grid-thirds a:hover, .icon-grid .grid-thirds a:focus {
@@ -5670,9 +5673,9 @@ p.center {
 /* Additional styles */
 div.search input[type=submit]
 {
-    /*content:"\e60e";*/
-    font-family:'icomoon';
-	src:url("/fonts/icomoon.eot?-c2dpsy");
+      content: "\f002";
+  font-family: 'FontAwesome';
+	/* src:url("/fonts/icomoon.eot?-c2dpsy");
 	src:url("/fonts/icomoon.eot?#iefix-c2dpsy") format("embedded-opentype"),url("/fonts/icomoon.woff?-c2dpsy") format("woff"),url("/fonts/icomoon.ttf?-c2dpsy") format("truetype"),url("/fonts/icomoon.svg?-c2dpsy#icomoon") format("svg");
     /*width: 10%;*/
 }
