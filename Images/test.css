@@ -1,0 +1,3 @@
+.txt-gov > div > label, .dt-gov > div > label, .eml-gov > div > label, .num-gov > div > label, .pas-gov > div > label, .tel-gov > div > label, .time-gov > div > label, .field-gov > div > label {
+    color: red !important;
+}
